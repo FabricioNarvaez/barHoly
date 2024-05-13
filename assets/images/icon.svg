@@ -1,0 +1,10 @@
+<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-1.000 -1.000 29.700 23.400" enable-background="new 0 0 27.7 21.4" xml:space="preserve">
+<path fill="#231F20" d="M25.5,0C19,4.8,14.8,12.5,14.8,21.2c0,0.1,0,0.1,0,0.2c7.2-0.5,12.9-6.5,12.9-13.8C27.7,4.8,26.9,2.2,25.5,0
+	z M2.2,0C0.8,2.2,0,4.8,0,7.5c0,7.3,5.7,13.3,12.9,13.8c0-0.1,0-0.1,0-0.2C12.9,12.5,8.7,4.8,2.2,0z" style="fill: rgb(245, 127, 23);"/>
+<script  type="text/javascript">
+    <![CDATA[
+         var c=window.location.search.split('color=')[1]; c=parseInt(c,16); if(!isNaN(c)){c=c.toString(16);var p=document.getElementsByTagName('path');for(var i=0,l=p.length;i<l;i++){var s=p[i].style;s.fill='#'+c;} var p2=document.getElementsByTagName('polygon');for(var i=0,l=p2.length;i<l;i++){var s=p2[i].style;s.fill='#'+c;} var p3=document.getElementsByTagName('circle');for(var i=0,l=p3.length;i<l;i++){var s=p3[i].style;s.fill='#'+c;} }
+        ]]>
+</script>
+</svg>

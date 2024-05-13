@@ -1,12 +1,14 @@
 <template>
     <header>
-        <nav>
-            <ul>
-                <li><NuxtLink to="/">Inicio</NuxtLink></li>
-                <li><NuxtLink to="/sobre-nosotros">Sobre Nosotros</NuxtLink></li>
-                <li><NuxtLink to="/">Carta y menús</NuxtLink></li>
-                <li><NuxtLink to="/">Contacto y Horario</NuxtLink></li>
-            </ul>
+        <NuxtLink to="/" title="Bar Restaurante Holy" class="logoLink">
+                <img src="../images/icon.svg" alt="Bar Holy icon" title="Bar Restaurante Holy"/>
+                <span>Bar Restaurante Holy</span>
+        </NuxtLink>
+        <nav class="navMenu">
+            <NuxtLink to="/">Inicio</NuxtLink>
+            <NuxtLink to="/sobre-nosotros">Sobre Nosotros</NuxtLink>
+            <NuxtLink to="/">Carta y Menús</NuxtLink>
+            <NuxtLink to="/">Contacto y Horario</NuxtLink>
         </nav>    
     </header>
 </template>
