@@ -23,6 +23,14 @@ header {
     max-width: 40px;
 }
 
+.navMenuIcon{
+    position: absolute;
+}
+
+.dropdown{
+    padding-right: 20px !important;
+}
+
 .navMenu a{
     color: white;
     margin-left: 10px;
