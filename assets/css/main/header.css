@@ -14,11 +14,11 @@ header {
     color: white;
 }
 
-.logoLink span{
+.logoName{
     min-width: 250px;
 }
 
-.logoLink img{
+.logoImg{
     max-width: 40px;
 }
 
@@ -76,4 +76,111 @@ header {
     border-bottom: 1px solid rgb(245, 127, 23);
 }
 
-/* TODO: Responsive */
+@media screen and (max-width: 860px) {
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .hamburger span {
+        display: block;
+        height: 2.5px;
+        width: 32px;
+        margin: 3px auto;
+        background-color: #FFF;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+    .hamburger span:nth-child(1) {
+        transform-origin: top left;
+    }
+    
+    .hamburger span:nth-child(3) {
+        transform-origin: bottom left;
+    }
+    
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        margin-top: 6.5px;
+    }
+
+    .navMenu{
+        position: fixed;
+        right: -100%;
+        top: 72px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #acacac;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navMenu.active{
+        right: -60%;
+        align-items: flex-start;
+    }
+
+    .navMenuItem{
+        margin: 20px 30px;
+    }
+
+    .navDropdown{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .dropdownMenu{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logoLink {
+        font-size: 18px;
+    }
+
+    .logoImg{
+        max-width: 30px;
+    }
+
+    .hamburger span {
+        width: 28px;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        margin-top: 4.5px;
+    }
+
+    .navMenu{
+        top: 67px;
+    }
+
+    .navMenu.active{
+        right: 0;
+        align-items: center;
+    }
+
+    .navDropdown{
+        display: contents;
+    }
+
+    .dropdownMenu{
+        width: 100%;
+        align-self: flex-start;
+        top: 160px;
+    }
+}
