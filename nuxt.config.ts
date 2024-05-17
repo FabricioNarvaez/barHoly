@@ -4,4 +4,12 @@ export default defineNuxtConfig({
   css: [
     'assets/css/global.css'
   ],  
+  app:{
+    head: {
+      title: 'Bar Holy',
+      meta: [
+        { name: 'description', content: 'This is description'}
+      ]
+    }
+  }
 })
