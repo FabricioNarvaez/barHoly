@@ -1,10 +1,9 @@
 header {
-    width: 100%;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15px 20px 20px;
+    padding: 20px 45px;
 }
 
 .logoLink{
@@ -27,15 +26,43 @@ header {
     position: absolute;
 }
 
+.navMenu{
+    display: flex;
+    align-items: center;
+}
+
 .dropdown{
     padding-right: 20px !important;
 }
 
-.navMenu a{
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    /* display: none; */
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownMenu a{
+    color: white;
+    padding: 10px;
+}
+
+.navMenuItem{
     color: white;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 14px;
+    transition: color 0.5s ease;
+}
+
+.navMenuItem:hover {
+    color: rgb(245, 127, 23);
 }
 
 .logoLink.router-link-active{
