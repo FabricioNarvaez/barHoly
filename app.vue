@@ -10,5 +10,5 @@
 </script>
 
 <style scoped>
-  @import "/assets/css/main/main.css";
+  /* @import "/assets/css/main/main.css"; */
 </style>

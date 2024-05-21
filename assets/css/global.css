@@ -7,3 +7,31 @@ body {
 a {
     text-decoration: none;
 }
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.bodyContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 860px) {
+    .bodyContainer {
+        width: 90%;
+    }
+}

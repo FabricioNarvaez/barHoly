@@ -1,3 +1,39 @@
 .homeContainer {
     text-align: center;
 }
+
+.homeContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center
+}
+
+.homeText {
+    max-width: 500px;
+}
+
+.homeServices {
+    font-size: 18px;
+    text-align: start;
+}
+
+.homeServices .boldText {
+    font-size: 22px;
+}
+
+.homeSection {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.bars{
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.homeMainImage {
+    max-height: 500px;
+    max-width: 700px;
+}
