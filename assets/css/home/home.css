@@ -1,3 +1,28 @@
 .homeContainer {
     text-align: center;
 }
+
+.carousel__item {
+    min-height: 200px;
+    width: 80%;
+    color: var(--vc-clr-white);
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImage{
+    max-width: 900px;
+}
+  
+.carousel__slide {
+    padding: 10px;
+}
+  
+.carousel__prev,
+.carousel__next {
+    box-sizing: content-box;
+    border: 5px solid white;
+}

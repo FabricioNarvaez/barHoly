@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   css: [
     'assets/css/global.css'
-  ],  
+  ],
+
   app:{
     head: {
       title: 'Bar Holy',
@@ -11,5 +13,6 @@ export default defineNuxtConfig({
         { name: 'description', content: 'This is description'}
       ]
     }
-  }
+  },
+  modules: ['vue3-carousel-nuxt'],
 })
