@@ -1,0 +1,21 @@
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    color: white;
+}
+
+.legalTerms a,
+footer a{
+    color: white;
+}
+
+.legalTerms a:hover,
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* TODO: Responsive */

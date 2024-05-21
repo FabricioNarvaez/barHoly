@@ -3,10 +3,12 @@
   <div class="bodyContainer">
     <NuxtPage />
   </div>
+  <footerComponent />
 </template>
 
 <script setup>
-  import headerComponent from './assets/components/headerComponent.vue'
+  import headerComponent from './assets/components/headerComponent.vue';
+  import footerComponent from './assets/components/footerComponent.vue';
 </script>
 
 <style scoped>
