@@ -44,7 +44,6 @@
     .carouselImage{
         max-width: 500px;
         max-height: 400px;
-        object-fit: contain;
     }
 }
 
@@ -52,7 +51,6 @@
     .carouselImage{
         max-width: 300px;
         max-height: 300px;
-        object-fit: contain;
         background-color: white;
     }
 

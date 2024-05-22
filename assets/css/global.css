@@ -21,6 +21,10 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 22px;
+}
+
 .boldText{
     font-weight: bold;
 }
@@ -43,6 +47,18 @@ h2 {
 
 @media screen and (max-width: 860px) {
     .bodyContainer {
-        width: 90%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
     }
 }

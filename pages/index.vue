@@ -11,12 +11,12 @@
                 </section>
                 <div class="bars"></div>
                 <section class="homeSection">
-                    <h3>Ambiente acogedor y decorado con estilo</h3>
+                    <h3 class="boldText">Ambiente acogedor y decorado con estilo</h3>
                     <p>El ambiente acogedor y decorado con estilo de este restaurante me hace sentir como en casa y disfrutar aún más de mi comida.</p>
                 </section>
                 <div class="bars"></div>
                 <section class="homeSection">
-                    <h3>Opciones de reservación para eventos y celebraciones especiales</h3>
+                    <h3 class="boldText">Opciones de reservación para eventos y celebraciones especiales</h3>
                     <p>Las opciones de reservación para eventos y celebraciones especiales nos permiten planificar y organizar de manera eficiente y personalizada nuestros momentos más memorables.</p>
                 </section>
             </div>
