@@ -1,8 +1,8 @@
 <template>
   <headerComponent />
-  <div class="bodyContainer">
+  <!-- <div class="bodyContainer"> -->
     <NuxtPage />
-  </div>
+  <!-- </div> -->
   <footerComponent />
 </template>
 

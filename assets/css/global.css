@@ -1,5 +1,6 @@
 :root {
     --orange : rgb(245, 127, 23);
+    --cream : #f5f2ec;
 }
 
 body {
@@ -33,6 +34,12 @@ h2 {
     margin: 0 auto;
 }
 
+.button{
+    color: var(--orange);
+    background-color: white;
+    border: 1px solid var(--orange);
+    padding: 15px 25px;
+}
 
 @media screen and (max-width: 860px) {
     .bodyContainer {

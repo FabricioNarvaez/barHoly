@@ -1,8 +1,8 @@
 <template>
     <div class="homeContainer">
         <carouselComponent />
-        <h1 class="title">¡Bienvenido a Bar Restaurante Holy!</h1>
         <div class="homeContent">
+            <h1 class="title">¡Bienvenido a Bar Restaurante Holy!</h1>
             <div class="homeServices">
                 <h2 class="subtitle">Servicios</h2>
                 <section class="homeSection">
@@ -21,6 +21,7 @@
                 </section>
             </div>
             <img class="homeMainImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1715968749/Bar%20Holy/tapa_lgm5dt.webp"/>
+            <NuxtLink class="button" title="Contacto" to="/contacto">Contáctanos</NuxtLink>
         </div>
     </div>
 </template>
