@@ -1,6 +1,10 @@
+.carouselContainer {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
 .carousel__item {
     min-height: 200px;
-    width: 80%;
     color: var(--vc-clr-white);
     font-size: 20px;
     border-radius: 8px;
@@ -11,6 +15,8 @@
 
 .carouselImage{
     max-width: 900px;
+    max-height: 550px;
+    object-fit: contain;
 }
   
 .carousel__slide {
@@ -20,5 +26,41 @@
 .carousel__prev,
 .carousel__next {
     box-sizing: content-box;
-    border: 5px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+.carousel__icon{
+    width: 60px;
+    height: 60px;
+}
+
+.carousel__pagination{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+    .carouselImage{
+        max-width: 500px;
+        max-height: 400px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carouselImage{
+        max-width: 300px;
+        max-height: 300px;
+        object-fit: contain;
+        background-color: white;
+    }
+
+    .carousel__prev{
+        left: -40px;
+    }
+
+    .carousel__next {
+        right: -40px;
+    }
 }

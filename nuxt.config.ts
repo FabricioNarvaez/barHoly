@@ -8,9 +8,11 @@ export default defineNuxtConfig({
 
   app:{
     head: {
-      title: 'Bar Holy',
+      title: 'Bar Restaurant Holy | Bar Restaurante en San Juan',
       meta: [
-        { name: 'description', content: 'This is description'}
+        { name: 'description', content: 'Descubre nuestro exquisito menú, ambiente acogedor y servicio excepcional. ¡Haz de cada visita una ocasión memorable en el corazón de la ciudad!'},
+        { name: 'robots', content: 'index, follow'},
+        { name: 'author', content: 'Fabricio Narváez'},
       ]
     }
   },
