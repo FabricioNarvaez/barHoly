@@ -1,7 +1,7 @@
 footer {
     margin-top: 20px;
     padding: 20px;
-    background-color: rgb(245, 127, 23);
+    background-color: var(--orange);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;

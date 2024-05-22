@@ -1,7 +1,7 @@
 <template>
     <div class="homeContainer">
         <carouselComponent />
-        <div><h1>¡Bienvenido a Bar Restaurante Holy!</h1></div>
+        <h1 class="title">¡Bienvenido a Bar Restaurante Holy!</h1>
         <div class="homeContent">
             <div class="homeServices">
                 <h2 class="subtitle">Servicios</h2>
