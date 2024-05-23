@@ -4,18 +4,34 @@
         <section class="contactDescription">
             <p>Si estás buscando un lugar donde disfrutar de deliciosos platillos, buena música y un ambiente divertido, estás en el lugar indicado.</p>
             <p>En Bar Restaurant Holy nos esforzamos por ofrecer a nuestros clientes una experiencia única y satisfactoria.</p>
-            <p>Puedes ubicarnos en <a class="contactLinks" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7" title="Dirección | Bar Restaurante Holy">Calle del Monasterio de Urdax, 27</a>, en pleno centro de la ciudad. Si prefieres contactarnos por teléfono, nuestro número es <a class="contactLinks" href="tel:+34948002773" target="_blank" rel="noopener" title="Número de teléfono | Bar restaurante Holy">+34 948 00 27 73</a>.</p>
+            <p>Puedes ubicarnos en <a class="contactLinks" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7" title="Dirección | Bar Restaurante Holy">Calle del Monasterio de Urdax, 27</a>, en pleno centro de la ciudad. Si prefieres contactarnos por teléfono, nuestro número es <a class="contactLinks" href="tel:+34603678187" target="_blank" rel="noopener" title="Número de teléfono | Bar restaurante Holy">+34 603 678 187</a>.</p>
         </section>
+        <div class="mapAndInfo">
+            <a title="Map | Bar Restaurante Holy" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7">
+                <img class="mapImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1716486510/Bar%20Holy/Captura_de_pantalla_2024-05-23_194751_mmesr9.png" />
+            </a>
+            <div class="barContactTimetable">
+                <h3>Dirección</h3>
+                <a class="contactLinks" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7" title="Dirección | Bar Restaurante Holy">Calle del Monasterio de Urdax, 27</a>
+
+                <h3>Teléfono</h3>
+                <a class="contactLinks" href="tel:+34603678187" target="_blank" rel="noopener" title="Número de teléfono | Bar restaurante Holy">+34 603 678 187</a>
+                
+                <h3>Email</h3>
+                <a class="contactLinks" href="mailto:barholypamplona006@gmail.com" target="_blank" rel="noopener" title="Email | Bar Restaurante Holy">barholypamplona006@gmail.com</a>
+            </div>
+        </div>
     </div>
-    <a class="contactLinks" href="mailto:info@restaurantekabo.com" target="_blank" rel="noopener" title="Email | Bar Restaurante Holy">info@restaurantekabo.com</a>
 </template>
 
 <script setup>
     useHead({
         title: 'Contacto y Horario | Bar Restaurante Holy',
         meta: [
-            { name: 'description', content: 'En Bar Restaurante Holy, creemos en el poder de los ingredientes frescos y de origen local para crear obras maestras culinarias. Experimente nuestra dedicación a la calidad en cada plato y bebida.'},
-            { rel: 'canonical', href: "https://www.holybarrestaurante.com/sobre-nosotros"},
+            { name: 'description', content: 'Descubre el ambiente único y la deliciosa cocina del Bar Restaurante Holy. Consulta nuestro horario, ubicación e información de contacto. ¡Te esperamos!'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.holybarrestaurante.com/contacto"}
         ]
     })
 </script>
