@@ -12,7 +12,7 @@
             </div>
             <nav class="navMenu" :class="{ active: isMenuActive}">
                 <NuxtLink class="navMenuItem" title="Inicio | Bar Restaurante Holy" to="/">Inicio</NuxtLink>
-                <NuxtLink class="navMenuItem" title="Sobre Nosotros | Bar Restaurante Holy" to="/sobre-nosotros">Sobre Nosotros</NuxtLink>
+                <!-- <NuxtLink class="navMenuItem" title="Sobre Nosotros | Bar Restaurante Holy" to="/sobre-nosotros">Sobre Nosotros</NuxtLink> -->
                 <div class="navDropdown" @click="toggleDropdown">
                     <span class="navMenuItem dropdown">Carta y Menús <svg class="navMenuIcon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 15 15"><path fill="currentColor" d="M7.5 10.207L11.707 6H3.293z"/></svg></span>
                     <div class="dropdownMenu" :class="{ dropdownActive: isDropdownActive}" >

@@ -19,7 +19,3 @@
       ]
     })
 </script>
-
-<style scoped>
-  @import "../assets/css/about-us/about-us.css"
-</style>
