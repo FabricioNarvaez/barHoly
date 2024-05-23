@@ -3,6 +3,7 @@
     max-width: 1500px;
     margin: auto;
 }
+
 .carousel__item {
     min-height: 200px;
     color: var(--vc-clr-white);

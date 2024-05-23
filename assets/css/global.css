@@ -9,6 +9,10 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
+img[alt]::after {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
