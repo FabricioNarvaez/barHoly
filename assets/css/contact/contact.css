@@ -1,0 +1,29 @@
+.contactContainer {
+    background-color: var(--cream);
+}
+
+.contactContainer h1 {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    color: var(--orange);
+}
+
+.contactDescription {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.contactLinks {
+    color: var(--orange);
+    transition: border-bottom 0.5s ease;
+  }
+  
+  .contactLinks:hover {
+    border-bottom: 1px solid var(--orange);
+    width: 100%;
+  }
+  
