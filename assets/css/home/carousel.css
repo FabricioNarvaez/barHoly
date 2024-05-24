@@ -2,6 +2,7 @@
     width: 90%;
     max-width: 1500px;
     margin: auto;
+    z-index: 1;
 }
 
 .carousel__item {
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .carouselImage{
