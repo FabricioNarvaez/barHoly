@@ -103,4 +103,12 @@
         max-width: 100%;
         object-fit: cover;
     }
+    
+    .homeContent {
+        padding: 20px 70px 60px 70px;
+    }
+}
+
+.homeContent {
+    padding: 20px 70px 60px 70px;
 }
