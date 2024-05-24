@@ -4,9 +4,9 @@
         <div class="legalTerms">
             <NuxtLink title="Aviso legal" to="/aviso-legal">Aviso legal</NuxtLink>
             <div class="bar">|</div> 
-            <NuxtLink title="Política de privacidad" to="/politicas-de-privacidad">Política de privacidad</NuxtLink>
+            <NuxtLink title="Política de privacidad" to="/politicas-de-privacidad">Políticas de privacidad</NuxtLink>
             <div class="bar">|</div> 
-            <NuxtLink title="Política de cookies" to="/politicas-de-cookies">Política de cookies</NuxtLink>
+            <NuxtLink title="Política de cookies" to="/politicas-de-cookies">Políticas de cookies</NuxtLink>
         </div>
     </footer>
 </template>
