@@ -2,8 +2,10 @@
     <footer>
         <NuxtLink title="Bar Holy copyright"to="/">&#169; Bar Restaurante Holy</NuxtLink>
         <div class="legalTerms">
-            <NuxtLink title="Aviso legal" to="/aviso-legal">Aviso legal</NuxtLink> | 
-            <NuxtLink title="Política de privacidad" to="/politica-de-privacidad">Política de privacidad</NuxtLink> | 
+            <NuxtLink title="Aviso legal" to="/aviso-legal">Aviso legal</NuxtLink>
+            <div class="bar">|</div> 
+            <NuxtLink title="Política de privacidad" to="/politica-de-privacidad">Política de privacidad</NuxtLink>
+            <div class="bar">|</div> 
             <NuxtLink title="Política de cookies" to="/politica-de-cookies">Política de cookies</NuxtLink>
         </div>
     </footer>
