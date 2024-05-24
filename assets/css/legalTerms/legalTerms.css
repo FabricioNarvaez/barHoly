@@ -1,0 +1,9 @@
+.legalTermsContainer h1{
+    text-align: center;
+}
+
+.legalTermsContainer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
