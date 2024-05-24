@@ -1,6 +1,6 @@
 <template>
     <div class="legalTermsContainer">
-        <h1>Aviso Legal</h1>
+        <h1>Políticas de privacidad</h1>
     
         <h2>1. Objeto</h2>
         <p>La presente Política de Privacidad (en adelante, la Política) regula el tratamiento de los datos personales de los usuarios del sitio web <strong>https://barrestauranteholy.es</strong> (en adelante, el Sitio Web).</p>
@@ -24,6 +24,18 @@
         <p>El usuario declara haber leído, entendido y aceptado todas las condiciones de la presente Política de Privacidad.</p>
     </div>
 </template>
+
+<script setup>
+    useHead({
+        title: 'Políticas de privacidad | Bar Restaurante Holy',
+        meta: [
+            { name: 'robots', content: 'noindex, nofollow'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/politicas-de-privacidad"}
+        ]
+    })
+</script>
 
 <style scoped>
     @import "../assets/css/legalTerms/legalTerms.css";

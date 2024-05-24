@@ -55,6 +55,18 @@
     </div>
 </template>
 
+<script setup>
+    useHead({
+        title: 'Aviso legal | Bar Restaurante Holy',
+        meta: [
+            { name: 'robots', content: 'noindex, nofollow'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/aviso-legal"}
+        ]
+    })
+</script>
+
 <style scoped>
     @import "../assets/css/legalTerms/legalTerms.css";
 </style>

@@ -54,7 +54,7 @@
             { name: 'description', content: 'Descubre el ambiente único y la deliciosa cocina del Bar Restaurante Holy. Consulta nuestro horario, ubicación e información de contacto. ¡Te esperamos!'}
         ],
         link: [
-            { rel: 'canonical', href: "https://www.holybarrestaurante.com/contacto"}
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/contacto"}
         ]
     })
 </script>

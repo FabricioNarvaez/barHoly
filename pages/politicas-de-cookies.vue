@@ -1,6 +1,6 @@
 <template>
     <div class="legalTermsContainer">
-        <h1>POLÍTICA DE COOKIES</h1>
+        <h1>Políticas de cookies</h1>
 
         <h2>1. Objeto</h2>
         <p>La presente Política de Cookies (en adelante, la Política) regula el uso de cookies en el sitio web <strong>https://barrestauranteholy.es</strong> (en adelante, el Sitio Web)</p>
@@ -36,6 +36,18 @@
 
     </div>
 </template>
+
+<script setup>
+    useHead({
+        title: 'Políticas de cookies | Bar Restaurante Holy',
+        meta: [
+            { name: 'robots', content: 'noindex, nofollow'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/politicas-de-cookies"}
+        ]
+    })
+</script>
 
 <style scoped>
     @import "../assets/css/legalTerms/legalTerms.css";
