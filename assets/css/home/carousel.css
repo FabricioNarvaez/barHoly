@@ -58,10 +58,10 @@
     }
 
     .carousel__prev{
-        left: -40px;
+        left: -25px;
     }
 
     .carousel__next {
-        right: -40px;
+        right: -25px;
     }
 }
