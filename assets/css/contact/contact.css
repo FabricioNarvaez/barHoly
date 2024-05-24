@@ -17,6 +17,33 @@
     font-size: 18px;
 }
 
+.timetableContainer {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    padding: 20px 30px;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+.left,
+.bold {
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+}
+
+.timetable {
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .contactLinks {
     color: var(--orange);
     transition: border-bottom 0.5s ease;
@@ -57,5 +84,10 @@
     .mapAndInfo {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .timetableContainer {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
