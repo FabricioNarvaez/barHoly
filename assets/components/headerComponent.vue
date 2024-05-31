@@ -29,7 +29,11 @@
 </template>
 
 <script setup>
-    import { ref } from "vue";
+    import { ref, watch} from "vue";
+    import { useRoute  } from 'vue-router';
+    
+    const route = useRoute();
+    const currentPath = ref(route.path);
 
     const isDropdownActive = ref(false);
     const isMenuActive = ref(false);
@@ -39,6 +43,11 @@
     const toggleMenu = () => {
         isMenuActive.value = !isMenuActive.value;
     }
+
+    watch(() => route.path, (newPath, oldPath) => {
+        isMenuActive.value = false;
+        currentPath.value = newPath;
+    });
 </script>
 
 <style scoped>
