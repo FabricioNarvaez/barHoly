@@ -16,10 +16,10 @@
                 <div class="navDropdown" @click="toggleDropdown">
                     <span class="navMenuItem dropdown">Carta y Menús <svg class="navMenuIcon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 15 15"><path fill="currentColor" d="M7.5 10.207L11.707 6H3.293z"/></svg></span>
                     <div class="dropdownMenu" :class="{ dropdownActive: isDropdownActive}" @mouseleave="toggleDropdown">
-                        <NuxtLink class="navMenuItem" title="Menú | Bar Restaurante Holy" to="/menu">Menú</NuxtLink>
-                        <NuxtLink class="navMenuItem" title="Nuestros Pinchos | Bar Restaurante Holy" to="/nuestros-pinchos">Nuestros Pinchos</NuxtLink>
-                        <NuxtLink class="navMenuItem" title="Bebidas | Bar Restaurante Holy" to="/bebidas">Bebidas</NuxtLink>
-                        <NuxtLink class="navMenuItem" title="Vinos | Bar Restaurante Holy" to="/vinos">Vinos</NuxtLink>
+                        <NuxtLink class="navMenuItem" title="Menú | Bar Restaurante Holy" to="/carta-y-menu/menu">Menú</NuxtLink>
+                        <NuxtLink class="navMenuItem" title="Nuestros Pinchos | Bar Restaurante Holy" to="/carta-y-menu/nuestros-pinchos">Nuestros Pinchos</NuxtLink>
+                        <NuxtLink class="navMenuItem" title="Bebidas | Bar Restaurante Holy" to="/carta-y-menu/bebidas">Bebidas</NuxtLink>
+                        <NuxtLink class="navMenuItem" title="Vinos | Bar Restaurante Holy" to="/carta-y-menu/vinos">Vinos</NuxtLink>
                     </div>
                 </div>
                 <NuxtLink class="navMenuItem" title="Contacto | Bar Restaurante Holy" to="/contacto">Contacto y Horario</NuxtLink>

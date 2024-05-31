@@ -1,0 +1,91 @@
+.title {
+    color: var(--orange);
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.subtitle,
+.dishName {
+    text-transform: uppercase;
+}
+
+.dishPrice {
+    min-width: 68px;
+    text-align: end;
+}
+
+.buttonLinks {
+    margin: 15px auto;
+    width: fit-content;
+}
+
+.buttonLinks .button {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonLinks .button:hover {
+    background-color: var(--orange);
+    color: white;
+}
+
+.menuBackground {
+    background-color: var(--cream);
+    padding-bottom: 40px;
+}
+
+.menuContainer {
+    margin: 30px auto 0 auto;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 25px -15px rgba(0,0,0,0.75);
+    width: 80%;
+}
+
+.dish,
+.dishDescriptionContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish {
+    gap: 15px;
+}
+
+.dishSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dishContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.dish,
+.dishDescriptionPrice {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.dishDescription {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.dishDescriptionPrice {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .dishSection {
+        grid-template-columns: 1fr;
+    }
+
+    .buttonLinks {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
