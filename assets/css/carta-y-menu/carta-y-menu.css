@@ -88,4 +88,13 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .menuContainer {
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    .dishContainer {
+        width: 90%;
+    }
 }
