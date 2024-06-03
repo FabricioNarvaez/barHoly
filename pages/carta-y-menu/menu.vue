@@ -86,21 +86,30 @@
             { name: "VEGETALES", price: "7.90 €", description:"Pollo, lechuga, tomate y cebolla", description2: "Atún, lechuga, tomate, y mahonesa"},
             { name: "BACON CON QUESO Y PIMIENTO", price: "6.80 €", description:""},
         ]},
-        // { type: "Huevos Rotos", content: [
-        //     { name: "CHISTORRA, BACON, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     { name: "JAMÓN IBERICO, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     // { name: "", price: "", description:""},
-        // ]},
-        // { type: "Huevos Rotos", content: [
-        //     { name: "CHISTORRA, BACON, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     { name: "JAMÓN IBERICO, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     // { name: "", price: "", description:""},
-        // ]},
-        // { type: "Huevos Rotos", content: [
-        //     { name: "CHISTORRA, BACON, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     { name: "JAMÓN IBERICO, PATATAS, HUEVO FRITO Y TOMATE FRITO", price: "12.00 €", description:""},
-        //     // { name: "", price: "", description:""},
-        // ]},
+        { type: "Cazuelas", content: [
+            { name: "CALLOS", price: "12.00 €", description:"Callos con morros y chorizo bañados en una salsa de tomate"},
+            { name: "AJOARRIERO", price: "12.00 €", description:"Guiso de Bacalao, condimentado con ajo y bañado en salsa con gambas"},
+            { name: "CARRILLERAS IBÉRICAS", price: "15.00 €", description:"Corte de carne de cerdo Ibérico bañado con con salsa de Vino"},
+            { name: "RABO DE TORO", price: "18.00 €", description:""},
+        ]},
+        { type: "HAMBURGUESAS DE TERNERA", content: [
+            { name: "HAMBURGUESA HOLY CON MEZCLUM DE LECHUGA, BACON, QUESO, CEBOLLA NATURAL, HUEVO FRITO Y SALSA DE MOSTAZA", price: "12.00 €", description:""},
+            { name: "HAMBURGUESA VIUDA CON QUESO", price: "7.00 €", description:""},
+            { name: "HAMBURGUES DE QUESO DE CABRA, MEZCLUM DE LECHUGA, TOMATE Y CEBOLLA CARAMELIZADA", price: "10.00 €", description:""},
+        ]},
+        { type: "POSTRES", content: [
+            { name: "HELADOS", price: "4.50 €", description:"Vainilla, chocolate, fresa, cheesecake y limón"},
+            { name: "PANTXINETA", price: "5.00 €", description:"Elaborado con masa de hojaldre con almendras y relleno de crema pastelera"},
+            { name: "TARTA DE QUESO", price: "5.40 €", description:"Tarta de queso bañada en sirope de fresa"},
+            { name: "SORBETE DE MOJITO", price: "4.50 €", description:"Helado de limón, menta y Alcohol"},
+            { name: "TIRAMISU", price: "4.90 €", description:"Tiramisú con mascarpone y nata"},
+            { name: "COULAN", price: "4.90 €", description:"Bomba de chocolate con Helado de Vainilla"},
+            { name: "TORRIJAS", price: "5.50 €", description:"Pan de brioche con crema de arroz de leche y helado de vainilla"},
+            { name: "CAFE IRLANDES", price: "6.00 €", description:""},
+            { name: "CAFE VALENCIANO", price: "6.00 €", description:""},
+            { name: "CAFE ESCOCES", price: "6.00 €", description:""},
+            { name: "CUAJADA ", price: "4.00 €", description:""},
+        ]},
     ]
 </script>
 
