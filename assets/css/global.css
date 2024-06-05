@@ -50,6 +50,19 @@ h3 {
     padding: 15px 25px;
 }
 
+#topButton {
+    position: fixed;
+    bottom: 90px;
+    right: 16px;
+    /* display: none; */
+    background-color: var(--orange);
+    color: #fff;
+    border: 1px solid white;
+    padding: 6px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 860px) {
     .bodyContainer {
         width: 95%;
