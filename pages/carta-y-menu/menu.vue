@@ -64,12 +64,12 @@
             { name: "CARRILLERAS IBÉRICAS", price: "15.00 €", description:"Corte de carne de cerdo Ibérico bañado con con salsa de Vino"},
             { name: "RABO DE TORO", price: "18.00 €", description:""},
         ]},
-        { type: "HAMBURGUESAS DE TERNERA", content: [
+        { type: "Hamburguesas de Ternera", content: [
             { name: "HAMBURGUESA HOLY CON MEZCLUM DE LECHUGA, BACON, QUESO, CEBOLLA NATURAL, HUEVO FRITO Y SALSA DE MOSTAZA", price: "12.00 €", description:""},
-            { name: "HAMBURGUESA VIUDA CON QUESO", price: "7.00 €", description:""},
             { name: "HAMBURGUES DE QUESO DE CABRA, MEZCLUM DE LECHUGA, TOMATE Y CEBOLLA CARAMELIZADA", price: "10.00 €", description:""},
+            { name: "HAMBURGUESA VIUDA CON QUESO", price: "7.00 €", description:""},
         ]},
-        { type: "POSTRES", content: [
+        { type: "Postres", content: [
             { name: "HELADOS", price: "4.50 €", description:"Vainilla, chocolate, fresa, cheesecake y limón"},
             { name: "PANTXINETA", price: "5.00 €", description:"Elaborado con masa de hojaldre con almendras y relleno de crema pastelera"},
             { name: "TARTA DE QUESO", price: "5.40 €", description:"Tarta de queso bañada en sirope de fresa"},
