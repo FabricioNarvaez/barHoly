@@ -46,6 +46,7 @@
 
     watch(() => route.path, (newPath, oldPath) => {
         isMenuActive.value = false;
+        isDropdownActive.value = false;
         currentPath.value = newPath;
     });
 </script>
