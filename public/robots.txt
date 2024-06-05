@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /__nuxt__/*
+Disallow: /node_modules/*
+
+Allow: /dist/*
+Allow: /@/*
+
+Sitemap: https://barrestauranteholy.es/sitemap.xml
+Disallow: /_error/*
