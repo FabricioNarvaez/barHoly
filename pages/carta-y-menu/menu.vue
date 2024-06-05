@@ -83,4 +83,14 @@
             { name: "CUAJADA ", price: "4.00 €", description:""},
         ]},
     ]
+
+    useHead({
+        title: 'Menu | Bar Restaurante Holy',
+        meta: [
+            { name: 'description', content: 'Disfruta de una deliciosa experiencia gastronómica en Bar Restaurante Holy. Descubre nuestro amplio menú con ensaladas frescas, picoteos variados y hamburguesas entre otros.  ¡Te esperamos!'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/carta-y-menu/menu"}
+        ]
+    })
 </script>

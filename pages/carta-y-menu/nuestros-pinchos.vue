@@ -29,4 +29,14 @@
         ]},
 
     ]
+
+    useHead({
+        title: 'Nuestros Pinchos | Bar Restaurante Holy',
+        meta: [
+            { name: 'description', content: '¡Disfruta de una experiencia gastronómica única con nuestros deliciosos pinchos! En Bar Restaurante Holy encontrarás una gran variedad de pinchos elaborados con ingredientes frescos y de calidad. ¡No te los pierdas!'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/carta-y-menu/nuestros-pinchos"}
+        ]
+    })
 </script>

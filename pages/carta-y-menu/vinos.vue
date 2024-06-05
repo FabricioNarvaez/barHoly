@@ -39,4 +39,14 @@
             { name: "FRIZZANTE", price: "15.00 €"}
         ]}
     ]
+
+    useHead({
+        title: 'Vinos | Bar Restaurante Holy',
+        meta: [
+            { name: 'description', content: 'El lugar perfecto para compartir una buena botella de vino con amigos o familia. En Bar Restaurante Holy encontrarás un ambiente acogedor y una carta con vinos seleccionados para cada paladar.'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/carta-y-menu/vinos"}
+        ]
+    })
 </script>

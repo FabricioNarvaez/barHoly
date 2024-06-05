@@ -29,5 +29,15 @@
             { name: "MOSCATEL", price: "3.50 €"}
         ]}
     ]
+
+    useHead({
+        title: 'Bebidas | Bar Restaurante Holy',
+        meta: [
+            { name: 'description', content: 'El lugar perfecto para disfrutar de una buena cerveza o un vermut con amigos o familia. En Bar Restaurante Holy encontrarás un ambiente acogedor y una carta con cervezas y vermuts para todos los gustos.  ¡No te lo pierdas!'}
+        ],
+        link: [
+            { rel: 'canonical', href: "https://www.barrestauranteholy.es/carta-y-menu/bebidas"}
+        ]
+    })
 </script>
 
