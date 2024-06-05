@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         { name: 'msapplication-TileColor', content: '#ffffff'},
         { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png'},
         { name: 'theme-color', content: '#ffffff'},
+        { name: 'google-site-verification', content: 'ys6Smnq5GqG1AeUYMhgMrxG-B6jCt0ltl8M2DgNiby8'}
       ],
       link: [
         { rel: 'canonical', href: "https://www.barrestauranteholy.es/"},
