@@ -10,6 +10,10 @@
     text-transform: uppercase;
 }
 
+.subtitle {
+    text-decoration: underline var(--orange);
+}
+
 .dishPrice {
     min-width: 68px;
     text-align: end;
