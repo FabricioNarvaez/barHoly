@@ -1,7 +1,7 @@
 <template>
     <div class="carouselContainer">
         <!-- <Carousel :wrap-around="true" :items-to-show="2"> -->
-        <Carousel :wrap-around="true" :autoplay="2500">
+        <Carousel :wrap-around="true" :autoplay="3000">
             <Slide v-for="slide in images" :key="slide">
                 <div class="carousel__item">
                     <img :title="slide.name" :alt="slide.name" class="carouselImage" :src="slide.href" />
