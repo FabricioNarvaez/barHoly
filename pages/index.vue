@@ -20,9 +20,9 @@
                     <p>Las opciones de reservación para eventos y celebraciones especiales nos permiten planificar y organizar de manera eficiente y personalizada nuestros momentos más memorables.</p>
                 </section>
             </div>
-            <NuxtImg title="Pincho pimiento" alt="Bar Holy | Pincho pimiento" class="homeMainImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1715968749/Bar%20Holy/tapa_lgm5dt.webp"/>
+            <NuxtImg title="Pincho pimiento" alt="Bar Holy | Pincho pimiento" class="homeMainImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1717770242/Bar%20Holy/tapa_lgm5dt_w1hswh.webp"/>
             <div class="spaceBetween"></div>
-            <NuxtImg title="Pincho Gamba" alt="Bar Holy | Pincho Gamba" class="homeMainImage homeSecondImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/gamba_zkhilw.webp" />
+            <NuxtImg title="Pincho Gamba" alt="Bar Holy | Pincho Gamba" class="homeMainImage homeSecondImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1717770239/Bar%20Holy/rr1u8pfcykhzsj9z9t6m_jorysf.webp" />
             <div class="homeServices">
                 <h2 class="subtitle">Sobre Nosotros</h2>
                 <section class="homeSection">

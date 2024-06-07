@@ -31,7 +31,7 @@
         </div>
         <div class="mapAndInfo">
             <a title="Map | Bar Restaurante Holy" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7">
-                <NuxtImg class="mapImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/maps_mff1ww.webp" />
+                <NuxtImg class="mapImage" src="https://res.cloudinary.com/dzd68sxue/image/upload/v1717770239/Bar%20Holy/Captura_de_pantalla_2024-05-23_194751_mmesr9_mgca4k.webp" />
             </a>
             <div class="barContactTimetable">
                 <h3>Dirección</h3>
