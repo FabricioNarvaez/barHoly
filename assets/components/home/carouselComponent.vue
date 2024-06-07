@@ -4,7 +4,8 @@
         <Carousel :wrap-around="true" :autoplay="3000">
             <Slide v-for="slide in images" :key="slide">
                 <div class="carousel__item">
-                    <img :title="slide.name" :alt="slide.name" class="carouselImage" :src="slide.href" />
+                    <NuxtImg class="carouselImage" :title="slide.name" :alt="slide.name" :src="slide.href" />
+                    <!-- <img :title="slide.name" :alt="slide.name" class="carouselImage" :src="slide.href" /> -->
                 </div>
             </Slide>
     
