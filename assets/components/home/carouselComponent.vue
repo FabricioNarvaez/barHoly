@@ -18,13 +18,12 @@
 
 <script setup>
     const images = [
-        { name: "Bar Holy | Entrada", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397396/Bar%20Holy/h6rwx7icthnw6ztoouyw.png"},
-        // { name: "Bar Holy | Barra", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/spxfj6sgezjqazn1af7x.jpg"},
-        { name: "Bar Holy | Comedor", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/txt3agff5clgibl7lcq8.jpg"},
-        { name: "Bar Holy | Vino y pincho", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/xketskmtvpuns6e4xdbj.jpg"},
-        { name: "Bar Holy | Plato de codillo", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/hoimq2fpuqsxp2gz2wrv.jpg"},
-        { name: "Bar Holy | Pincho Gamba", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/rr1u8pfcykhzsj9z9t6m.jpg"},
-        { name: "Bar Holy | Pincho tomate y aceitunas", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1716397263/Bar%20Holy/ptqcbhlfjk5i0h0zcvbp.jpg"},
+        { name: "Bar Holy | Entrada", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767576/Bar%20Holy%20Webp/entrada_lbjfay.webp"},
+        { name: "Bar Holy | Comedor", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/comedor_cuo34z.webp"},
+        { name: "Bar Holy | Vino y pincho", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/Barra_fqi08s.webp"},
+        { name: "Bar Holy | Plato de codillo", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/codillo_mn6nvu.webp"},
+        { name: "Bar Holy | Pincho Gamba", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/gamba_zkhilw.webp"},
+        { name: "Bar Holy | Pincho tomate y aceitunas", href: "https://res.cloudinary.com/dzd68sxue/image/upload/v1717767575/Bar%20Holy%20Webp/tomate_zzyoo4.webp"},
     ]
 </script>
 
