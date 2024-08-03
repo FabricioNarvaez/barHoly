@@ -3,7 +3,7 @@
         <h1>Contacto</h1>
         <section class="contactDescription">
             <p>Si estás buscando un lugar donde disfrutar de deliciosos platillos, buena música y un ambiente divertido, estás en el lugar indicado.</p>
-            <!-- <p>En Bar Restaurant Holy nos esforzamos por ofrecer a nuestros clientes una experiencia única y satisfactoria.</p> -->
+            <!-- <p>En Bar Restaurante Holy nos esforzamos por ofrecer a nuestros clientes una experiencia única y satisfactoria.</p> -->
             <p>Puedes ubicarnos en <a class="contactLinks" target="_blank" href="https://maps.app.goo.gl/egi5U4xvLD2kTnEf7" title="Dirección | Bar Restaurante Holy">Calle del Monasterio de Urdax, 27</a>, en pleno centro de la ciudad. Si prefieres contactarnos por teléfono, nuestro número es <a class="contactLinks" href="tel:+34603678187" target="_blank" rel="noopener" title="Número de teléfono | Bar restaurante Holy">+34 603 678 187</a>.</p>
         </section>
         <div class="timetableContainer">
