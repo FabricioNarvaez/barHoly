@@ -11,8 +11,11 @@
 
 <script setup>
   import { ref, onMounted } from 'vue';
+  import { inject } from '@vercel/analytics';
   import headerComponent from './assets/components/headerComponent.vue';
   import footerComponent from './assets/components/footerComponent.vue';
+
+  inject();
 
   const isVisible = ref(false);
   onMounted(() => {
