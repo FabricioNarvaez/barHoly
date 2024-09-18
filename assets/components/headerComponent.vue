@@ -1,5 +1,11 @@
 <template>
-    <header>
+    <header v-if="MAINTENANCE_MODE">
+        <div class="logoLink">
+            <img  class="logoImg" src="../images/icon.svg" alt="Bar Holy icon" title="Bar Restaurante Holy"/>
+            <span class="logoName">Bar Restaurante Holy</span>
+        </div>
+    </header>
+    <header v-else>
         <NuxtLink to="/" title="Bar Restaurante Holy" class="logoLink">
                 <img  class="logoImg" src="../images/icon.svg" alt="Bar Holy icon" title="Bar Restaurante Holy"/>
                 <span class="logoName">Bar Restaurante Holy</span>
@@ -31,6 +37,10 @@
 <script setup>
     import { ref, watch} from "vue";
     import { useRoute  } from 'vue-router';
+    import { useRuntimeConfig } from '#app';
+
+    const config = useRuntimeConfig()
+    const MAINTENANCE_MODE = config.public.MAINTENANCE_MODE;
     
     const route = useRoute();
     const currentPath = ref(route.path);

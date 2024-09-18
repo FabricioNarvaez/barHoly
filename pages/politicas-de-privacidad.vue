@@ -34,7 +34,18 @@
         link: [
             { rel: 'canonical', href: "https://www.barrestauranteholy.es/politicas-de-privacidad"}
         ]
-    })
+    });
+    
+    definePageMeta({
+        middleware: [
+            function (to, from) {
+                const isMaintenance = process.env.MAINTENANCE_MODE;
+    
+                if (isMaintenance) {
+                    return navigateTo('/maintenance');
+                }
+        }]
+    });
 </script>
 
 <style scoped>
