@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   modules: ['vue3-carousel-nuxt', "@nuxt/image"],
   runtimeConfig: {
     public: {
-      MAINTENANCE_MODE: process.env.MAINTENANCE_MODE === 'true'
+      MAINTENANCE_MODE: true
     }
   }
 })
