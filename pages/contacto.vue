@@ -48,6 +48,17 @@
 </template>
 
 <script setup>
+    definePageMeta({
+        middleware: [
+            function (to, from) {
+                const isMaintenance = process.env.MAINTENANCE_MODE;
+    
+                if (isMaintenance) {
+                    return navigateTo('/maintenance');
+                }
+        }]
+    });
+
     useHead({
         title: 'Contacto y Horario | Bar Restaurante Holy',
         meta: [
@@ -56,7 +67,7 @@
         link: [
             { rel: 'canonical', href: "https://www.barrestauranteholy.es/contacto"}
         ]
-    })
+    });
 </script>
 
 <style scoped>
